@@ -5,12 +5,16 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "start:producer": "node ./src/"
+        "start:producer": "node ./src/",
+        "dev:producer": "nodemon ./src/"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
         "avsc": "^5.7.6",
         "node-rdkafka": "^2.14.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
     }
 }

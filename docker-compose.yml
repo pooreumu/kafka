@@ -27,7 +27,7 @@ services:
       - bash
       - -c
       - |
-        npm run start:consumer
+        npm run dev:consumer
     volumes:
       - ./consumer/src/:/app/src
   producer:
@@ -38,6 +38,6 @@ services:
       - bash
       - -c
       - |
-        npm run start:producer
+        npm run dev:producer
     volumes:
       - ./producer/src:/app/src
