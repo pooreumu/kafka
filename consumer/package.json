@@ -1,0 +1,17 @@
+{
+    "name": "consumer",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start:consumer": "node ./src/"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "avsc": "^5.7.6",
+        "node-rdkafka": "^2.14.0"
+    }
+}
